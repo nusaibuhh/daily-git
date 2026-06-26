@@ -17,6 +17,11 @@ Expect unoptimized logic, syntax errors, and a lot of mundane scripts as I learn
 * **What I did:** Wrote a simple if-else code to see if the number user inputs is 1 or not.
 * **What I learned:** consistency. Had to commit something today despite being exhausted.
 
+### Day 3: The Minimalist Word Counter
+* **What I did:** Built a text normalization and tokenization script from scratch in pure Python to count word frequencies in a sentence. 
+* **What I learned:** Used `.strip(",.?!;:")` to dynamically clean up trailing punctuation and combined it with `.lower()` and `.split()` to build a foundational NLP preprocessing step. 
+* **The Reality:** No AI prompting shortcuts today! I actually wrote the logic and syntax myself, and it ran flawlessly on the first try. Take that, coding anxiety. 😎
+
 ---
 
 *“The code might be boring, but the consistency won't be.”* 🚀
