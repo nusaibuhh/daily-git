@@ -22,6 +22,10 @@ Expect unoptimized logic, syntax errors, and a lot of mundane scripts as I learn
 * **What I learned:** Used `.strip(",.?!;:")` to dynamically clean up trailing punctuation and combined it with `.lower()` and `.split()` to build a foundational NLP preprocessing step. 
 * **The Reality:** No AI prompting shortcuts today! I actually wrote the logic and syntax myself, and it ran flawlessly on the first try. Take that, coding anxiety. 😎
 
+### Day 4: The High-Pass Image Filter
+* **What I did:** Wrote a matrix-filtering script that simulates how a Computer Vision pipeline isolates bright objects (like lane lines) by zeroing out low-intensity pixels.
+* **What I learned:** Practiced nested loops on a multi-dimensional array to evaluate grid coordinates against a threshold condition. 
+* **The Reality:** Customized the input array to scale the experiment up and got the exact filtered output matrix printed perfectly without relying on AI syntax helpers.
 ---
 
 *“The code might be boring, but the consistency won't be.”* 🚀
