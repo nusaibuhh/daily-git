@@ -26,6 +26,11 @@ Expect unoptimized logic, syntax errors, and a lot of mundane scripts as I learn
 * **What I did:** Wrote a matrix-filtering script that simulates how a Computer Vision pipeline isolates bright objects (like lane lines) by zeroing out low-intensity pixels.
 * **What I learned:** Practiced nested loops on a multi-dimensional array to evaluate grid coordinates against a threshold condition. 
 * **The Reality:** Customized the input array to scale the experiment up and got the exact filtered output matrix printed perfectly without relying on AI syntax helpers.
+
+### Day 5: The Biometric Signal Smoother
+* **What I did:** Developed a mathematical moving average window filter to smooth out sudden sensor spikes in a stream of raw heart rate telemetry data.
+* **What I learned:** Implemented forward-looking index boundaries (`i + 2`) while dynamically capping the loop range at `len(list) - 2` to elegantly prevent out-of-bounds syntax errors. Also practiced clean string float formatting using `:.2f`.
+* **The Reality:** Hand-coded a core data preprocessing algorithm directly relevant to my interest in wearable sensing and health informatics, keeping the no-AI-prompting streak perfectly intact.
 ---
 
 *“The code might be boring, but the consistency won't be.”* 🚀
