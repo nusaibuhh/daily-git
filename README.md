@@ -41,6 +41,11 @@ Expect unoptimized logic, syntax errors, and a lot of mundane scripts as I learn
 * **What I did:** Developed a frame-skipping algorithm to simulate video downsampling, a crucial optimization step for heavy action-recognition pipelines.
 * **What I learned:** Applied the modulo operator (`%`) inside an index loop to cleanly isolate elements at fixed periodic intervals without exceeding array bounds.
 * **The Reality:** Logged another quick, clean, hand-coded solution to maintain consistency. 5 minutes a day is all it takes. 🎬
+
+### Day 8: The Video Gap Detector
+* **What I did:** Built a sequence-validation algorithm that scans a stream of frame IDs to isolate, calculate, and log exact dropped frame numbers caused by sensor data loss.
+* **What I learned:** Designed a nested-loop offset strategy (`1 + j`) based on the delta between sequential indices to dynamically catch multi-frame data gaps.
+* **The Reality:** 7 DAYS STRAIGHT! Completed a full week of consistent, daily, hand-coded problem solving. The routine is officially locked in. 🎯
 ---
 
 *“The code might be boring, but the consistency won't be.”* 🚀
