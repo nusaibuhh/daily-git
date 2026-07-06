@@ -36,6 +36,11 @@ Expect unoptimized logic, syntax errors, and a lot of mundane scripts as I learn
 * **What I did:** Programmed a user-session tracking algorithm for Human-Computer Interaction analytics that identifies unique interaction waves and calculates activity durations based on timeout intervals.
 * **What I learned:** Architected a dynamic state buffer array to capture continuous sequential data points, cleanly clearing and resetting the buffer memory whenever a timeout delta ($> 5$ minutes) was detected.
 * **The Reality:** Successfully closed out a 5-day streak of hand-coded, raw-syntax scripts without using a single AI generation shortcut. Coding autonomy unlocked! 📈
+
+### Day 7: Temporal Video Subsampler
+* **What I did:** Developed a frame-skipping algorithm to simulate video downsampling, a crucial optimization step for heavy action-recognition pipelines.
+* **What I learned:** Applied the modulo operator (`%`) inside an index loop to cleanly isolate elements at fixed periodic intervals without exceeding array bounds.
+* **The Reality:** Logged another quick, clean, hand-coded solution to maintain consistency. 5 minutes a day is all it takes. 🎬
 ---
 
 *“The code might be boring, but the consistency won't be.”* 🚀
