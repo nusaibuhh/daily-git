@@ -46,6 +46,11 @@ Expect unoptimized logic, syntax errors, and a lot of mundane scripts as I learn
 * **What I did:** Built a sequence-validation algorithm that scans a stream of frame IDs to isolate, calculate, and log exact dropped frame numbers caused by sensor data loss.
 * **What I learned:** Designed a nested-loop offset strategy (`1 + j`) based on the delta between sequential indices to dynamically catch multi-frame data gaps.
 * **The Reality:** 8 DAYS STRAIGHT! Completed a full week of consistent, daily, hand-coded problem solving. The routine is officially locked in. 🎯
+
+### Day 9: Text Whitespace Normalizer
+* **What I did:** Wrote a text-cleaning algorithm to parse unevenly spaced strings into normalized, single-spaced sentences for NLP preprocessing pipelines.
+* **What I learned:** Utilized parameterless `.split()` behavior to automatically extract clean substrings from varying whitespace boundaries, and managed string reconstruction through token accumulation.
+* **The Reality:** Hand-coded the core mechanic of a string tokenizer, identifying a minor edge case with trailing string concatenation offsets along the way. Week 2 momentum is officially rolling! 🔤
 ---
 
 *“The code might be boring, but the consistency won't be.”* 🚀
