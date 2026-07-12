@@ -51,6 +51,11 @@ Expect unoptimized logic, syntax errors, and a lot of mundane scripts as I learn
 * **What I did:** Wrote a text-cleaning algorithm to parse unevenly spaced strings into normalized, single-spaced sentences for NLP preprocessing pipelines.
 * **What I learned:** Utilized parameterless `.split()` behavior to automatically extract clean substrings from varying whitespace boundaries, and managed string reconstruction through token accumulation.
 * **The Reality:** Hand-coded the core mechanic of a string tokenizer, identifying a minor edge case with trailing string concatenation offsets along the way. Week 2 momentum is officially rolling! 🔤
+
+### Day 10: PII Data Anonymizer
+* **What I did:** Programmed a text-redaction script to detect and mask Personally Identifiable Information (PII) handles within unstructured research logs.
+* **What I learned:** Used `.startswith()` inside an indexed mutation loop to locate target substrings dynamically and replace them with fixed-width masking elements (`****`).
+* **The Reality:** Hand-coded an essential security utility for data preprocessing pipelines, continuing to reinforce robust string parsing mechanics. 🔒
 ---
 
 *“The code might be boring, but the consistency won't be.”* 🚀
