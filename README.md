@@ -56,6 +56,11 @@ Expect unoptimized logic, syntax errors, and a lot of mundane scripts as I learn
 * **What I did:** Programmed a text-redaction script to detect and mask Personally Identifiable Information (PII) handles within unstructured research logs.
 * **What I learned:** Used `.startswith()` inside an indexed mutation loop to locate target substrings dynamically and replace them with fixed-width masking elements (`****`).
 * **The Reality:** Hand-coded an essential security utility for data preprocessing pipelines, continuing to reinforce robust string parsing mechanics. 🔒
+
+### Day 11: The Biometric Peak Detector
+* **What I did:** Designed a local maxima search algorithm to isolate peak heart rate fluctuations in wearable telemetry data streams.
+* **What I learned:** Implemented control flow guard clauses using the `continue` keyword to bypass edge boundary constraints safely, preserving clean indentation and logic flow.
+* **The Reality:** DOUBLE DIGITS! 10 consecutive days of hands-on, raw logic, leveling up from basic loops to algorithmic design patterns. 📈
 ---
 
 *“The code might be boring, but the consistency won't be.”* 🚀
