@@ -61,6 +61,11 @@ Expect unoptimized logic, syntax errors, and a lot of mundane scripts as I learn
 * **What I did:** Designed a local maxima search algorithm to isolate peak heart rate fluctuations in wearable telemetry data streams.
 * **What I learned:** Implemented control flow guard clauses using the `continue` keyword to bypass edge boundary constraints safely, preserving clean indentation and logic flow.
 * **The Reality:** DOUBLE DIGITS! 10 consecutive days of hands-on, raw logic, leveling up from basic loops to algorithmic design patterns. 📈
+
+### Day 12: Bounding Box Validator
+* **What I did:** Wrote a geometric data cleaner to validate spatial coordinates of object tracking boxes, discarding structurally impossible coordinate pairings.
+* **What I learned:** Implemented inline tuple unpacking to extract individual coordinate components cleanly, improving logical readability while maintaining explicit conditional filtering boundaries.
+* **The Reality:** Hand-coded another core data sanity check for computer vision pipelines. Keeping the daily 5-minute code habit completely bulletproof. 📐
 ---
 
 *“The code might be boring, but the consistency won't be.”* 🚀
